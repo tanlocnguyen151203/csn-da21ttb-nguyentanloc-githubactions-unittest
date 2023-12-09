@@ -2,7 +2,7 @@
 const util = require('util');
 const {PhepToan} = require('./pheptoan'); // Chỉnh sửa đường dẫn tệp pheptoan.js
 
-let soA = 10;
+let soA = 15;
 let soB = 15;
 
 console.log(util.format(`Kết quả của phép cộng ${soA} + ${soB} là: ${PhepToan.tong(soA, soB)}`));
