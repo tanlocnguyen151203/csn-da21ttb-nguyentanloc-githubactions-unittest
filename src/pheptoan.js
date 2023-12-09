@@ -23,7 +23,14 @@ const PhepToan = {
             let c = a / b;
             return c;
         }
+    },
+    canBacHai: function(number) {
+        if (number < 0) {
+            return "Không thể tính căn bậc hai của số âm";
+        } else {
+            return Math.sqrt(number);
+        }
     }
-};
 
-exports.PhepToan = PhepToan;
+};
+module.exports = { PhepToan };
