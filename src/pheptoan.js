@@ -25,3 +25,5 @@ const PhepToan = {
         }
     }
 };
+
+exports.PhepToan = PhepToan;
