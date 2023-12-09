@@ -14,6 +14,6 @@ jobs:
         name: checkout code from GitHub
       - run: npm install
         name: Install npm package
-      - run: node kiemtra.js
+      - run: node src/kiemtra.js
         name: Run Node kiemtralication
         
