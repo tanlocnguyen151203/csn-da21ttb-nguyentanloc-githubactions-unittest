@@ -1,0 +1,19 @@
+name: kiemthu
+on:
+  push:
+    paths:
+      - 'README.md'
+      - '!docs/**'
+      - '**js'
+    branches: [main]
+jobs:
+  kiemthu-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: checkout code from GitHub
+      - run: npm install
+        name: Install npm package
+      - run: node kiemtra.js
+        name: Run Node kiemtralication
+        
