@@ -1,0 +1,14 @@
+{
+  "name": "csn-da21ttb-nguyentanloc-githubactions-unittest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kiemtra.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
