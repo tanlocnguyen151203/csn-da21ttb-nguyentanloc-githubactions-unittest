@@ -1,7 +1,7 @@
 const util = require( 'util');
 const { PhepToan } = require("./pheptoan");
 
-let soA = 10;
+let soA = 100;
 let soB = 29;
 
 
