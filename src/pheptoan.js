@@ -36,39 +36,6 @@ const PhepToan = {
 module.exports = { PhepToan };
 
 
-const PhepToan = {
-    tong: function(a, b) {
-        a = parseFloat(a);
-        b = parseFloat(b);
-        
-        if (isNaN(a) || isNaN(b)) {
-            throw new Error("Vui lòng nhập số hợp lệ");
-        }
-
-        return a + b;
-    },
-    hieu: function(a, b) {
-        return a - b;
-    },
-    tich: function(a, b) {
-        return a * b;
-    },
-    thuong: function(a, b) {
-        if (b === 0) {
-            throw new Error("Không thể chia cho 0");
-        }
-        return a / b;
-    },
-    canBacHai: function(number) {
-        if (number < 0) {
-            throw new Error("Không thể tính căn bậc hai của số âm");
-        }
-        return Math.sqrt(number);
-    }
-};
-
-module.exports = { PhepToan };
-
 
 
 // const PhepToan = {
