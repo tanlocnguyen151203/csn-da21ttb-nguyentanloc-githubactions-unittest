@@ -15,6 +15,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'
+          distribution: your-distribution-value
 
       - name: Build and run JUnit tests
         run: |
