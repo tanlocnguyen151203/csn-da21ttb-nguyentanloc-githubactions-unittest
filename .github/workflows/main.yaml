@@ -1,26 +1,26 @@
-name: My Workflow
+name: Run JUnit Tests
 
 on:
   push:
-    branches:
-      - main  # Chạy khi có commit vào nhánh main
+    branches: [ main ]  # Chạy workflow khi có push vào nhánh main
 
 jobs:
-  build:
-    runs-on: ubuntu-latest  # Sử dụng hệ điều hành Ubuntu
+  test:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code  # Bước checkout mã nguồn
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v3  # Bước checkout mã nguồn
 
-      - name: Set up JDK 11  # Bước cài đặt JDK 11
-        uses: actions/setup-java@v2
+      - name: Set up JDK 17  # Bước cài đặt JDK 17
+        uses: actions/setup-java@v3
         with:
-          java-version: '11'
+          java-version: '17'
 
-      # Thêm các bước thực hiện công việc của bạn ở đây, ví dụ: biên dịch, chạy các bài kiểm tra, triển khai, v.v.
-      # Ví dụ:
-      - name: Compile and Test  # Bước biên dịch và kiểm tra
+      - name: Build and run JUnit tests
         run: |
-          javac TestCalculator.java
-          java -cp . TestCalculator
+          git clone https://github.com/tanlocnguyen151203/csn-da21ttb-nguyentanloc-githubactions-unittest.git  # Clone repository của bạn vào thư mục làm việc
+          cd csn-da21ttb-nguyentanloc-githubactions-unittest  # Di chuyển đến thư mục của repository
+
+          # Compile và chạy test JUnit
+          javac -cp .:junit-platform-console-standalone-1.10.1.jar TestCalculator.java
+          java -jar junit-platform-console-standalone-1.10.1.jar --class-path . --scan-class-path
