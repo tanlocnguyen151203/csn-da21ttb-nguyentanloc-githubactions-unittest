@@ -6,10 +6,13 @@ on:
 
 jobs:
   build_and_test:
+
     env:
       BUILD_CONFIG: 'Release'
       SOLUTION: src/TestCalculator.java'
+
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
 
