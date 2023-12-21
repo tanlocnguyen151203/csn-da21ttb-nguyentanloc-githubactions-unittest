@@ -1,8 +1,6 @@
-public class Calculator {
-    public String says() {
-        return "Hello";
-    }
+package com.system;
 
+public class Calculator {
     public int tong(int a, int b) {
         return a + b;
     }
@@ -18,7 +16,7 @@ public class Calculator {
     public int thuong(int a, int b) {
         if (b != 0)
             return a / b;
-        else 
+        else
             return b;
 
     }
