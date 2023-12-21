@@ -23,5 +23,5 @@ jobs:
           cd csn-da21ttb-nguyentanloc-githubactions-unittest  # Di chuyển đến thư mục của repository
 
           # Compile và chạy test JUnit
-          javac -cp .:junit-platform-console-standalone-1.10.1.jar TestCalculator.java
+          javac -cp .:junit-platform-console-standalone-1.10.1.jar src/TestCalculator.java
           java -jar junit-platform-console-standalone-1.10.1.jar --class-path . --scan-class-path
