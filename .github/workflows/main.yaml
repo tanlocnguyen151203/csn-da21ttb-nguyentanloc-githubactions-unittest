@@ -20,8 +20,9 @@ jobs:
       - name: Build and run JUnit tests
         run: |
           git clone https://github.com/tanlocnguyen151203/csn-da21ttb-nguyentanloc-githubactions-unittest.git  # Clone repository của bạn vào thư mục làm việc
-          cd csn-da21ttb-nguyentanloc-githubactions-unittest  # Di chuyển đến thư mục của repository
+          cd csn-da21ttb-nguyentanloc-githubactions-unittest/src  # Di chuyển đến thư mục của repository
 
           # Compile và chạy test JUnit
-          javac -cp .:junit-platform-console-standalone-1.10.1.jar src/TestCalculator.java
+          javac -cp .:junit-platform-console-standalone-1.10.1.jar TestCalculator.java
           java -jar junit-platform-console-standalone-1.10.1.jar --class-path . --scan-class-path
+          java -cp ".;../lib/*" org.junit.runner.JUnitCore TestCalculator
