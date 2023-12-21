@@ -18,4 +18,40 @@ public class TestCalculator {
         Calculator c = new Calculator();
         Assert.assertEquals(400, c.tong(100, 200));
     }
+
+    @Test
+    public void testTruThanhCong() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(100, c.tru(200, 100));
+    }
+
+    @Test
+    public void testTruThatBai() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(400, c.tru(200, 100));
+    }
+
+    @Test
+    public void testTichThanhCong() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(8, c.tich(2, 4));
+    }
+
+    @Test
+    public void testTichThatBai() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(6, c.tich(2, 4));
+    }
+
+    @Test
+    public void testThuongThanhCong() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(1, c.thuong(3, 3));
+    }
+
+    @Test
+    public void testThuongThatBai() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(4, c.thuong(3, 3));
+    }
 }
