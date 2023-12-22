@@ -1,6 +1,6 @@
 <!-- # csn-da21ttb-nguyentanloc-githubactions-unittest -->
  
-<!-- <center><a href="https://github.com/tanlocnguyen151203/csn-da21ttb-nguyentanloc-githubactions-unittest.git" Style="text-align:center ;"  >Nghiên cứu GitHub Action để kiểm thử tự động </</a></center></br> -->
+
     
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
 <body>
     <h1 Style="text-align:center ;" href="https://github.com/tanlocnguyen151203/csn-da21ttb-nguyentanloc-githubactions-unittest.git" >Nghiên cứu GitHub Action để kiểm thử tự động</h1><br>
     <h2>Giới Thiệu:</h2><br>
-<p>Dự án  nhằm nghiên cứu và áp dụng GitHub Actions để kiểm thử tự động trong phát triển phần mềm . Mục tiêu bao gồm hiểu rõ về GitHub Actions, xây dựng và triển khai các quy trình kiểm thử tự động, và tích hợp chúng vào quy trình CI/CD để cải thiện chất lượng mã nguồn. </p>     
+<p><font size="3" >Dự án  nhằm nghiên cứu và áp dụng GitHub Actions để kiểm thử tự động trong phát triển phần mềm . Mục tiêu bao gồm hiểu rõ về GitHub Actions, xây dựng và triển khai các quy trình kiểm thử tự động, và tích hợp chúng vào quy trình CI/CD để cải thiện chất lượng mã nguồn.</font> </p>     
 
 <h2>Mô Tả</h2><br>
 
