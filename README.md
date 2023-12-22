@@ -13,16 +13,7 @@
 <body>
     <h1 Style="text-align:center ;" href="https://github.com/tanlocnguyen151203/csn-da21ttb-nguyentanloc-githubactions-unittest.git" >Nghiên cứu GitHub Action để kiểm thử tự động</h1><br>
     <h2>Giới Thiệu:</h2><br>
-<p><b>Sinh ngày:</b>13 tháng 9 năm 1856</p> 
-<p><b>Quê quán:Smiljan, Đế quốc Áo <span style="color:rgb(39, 215, 238)">(ngày nay là Croatia)</span></b></p> 
-<p><b>Mất:</b>7 tháng 1 năm 1943 <span style="color:rgb(39, 215, 238)">(86 tuổi)</span></p>   
-<p><b>Nguyên nhân:</b>Huyết khối động mạnh vành</p>   
-<p><b>Nơi an nghỉ:</b>Belgrade, Serbia</p>   
-<p><b>Tư cách công dân:</b>Áo(1856-1891), Mỹ <span style="color:rgb(39, 215, 238)">(1891-qua đời)</span></p> 
-<p><b>Học vị:</b>Đại học công nghệ Graz <span style="color:rgb(39, 215, 238)">(đã bỏ học)</span></p>   
-<p><b>Nghề nghiệp:</b>Kỹ sư</p>   
-<p><b>Nghành:</b>Kỹ sư điện, Kỹ sư cơ khí,...</p>   
-<p><b>Các dự án nổi bật:</b>Dòng điện xoay chiều, Điện cao thế, Thí nghiệm về điện tần số cao, Thiết kế nổi bật, Động cơ cảm ứng, Từ trường quay, Cuộn dây Tesla, Radio điều khiển từ xa, Ngư lôi,... </p>     
+<p>Dự án  nhằm nghiên cứu và áp dụng GitHub Actions để kiểm thử tự động trong phát triển phần mềm . Mục tiêu bao gồm hiểu rõ về GitHub Actions, xây dựng và triển khai các quy trình kiểm thử tự động, và tích hợp chúng vào quy trình CI/CD để cải thiện chất lượng mã nguồn. </p>     
 
 <h2>Mô Tả</h2><br>
 
