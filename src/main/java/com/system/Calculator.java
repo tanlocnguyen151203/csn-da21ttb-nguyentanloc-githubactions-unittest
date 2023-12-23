@@ -17,7 +17,6 @@ public class Calculator {
         if (b != 0)
             return a / b;
         else
-            return b;
-
+            throw new IllegalArgumentException("Số chia không được là số 0");
     }
 }
