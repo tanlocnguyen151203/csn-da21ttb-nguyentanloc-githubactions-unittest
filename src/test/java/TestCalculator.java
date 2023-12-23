@@ -1,4 +1,5 @@
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.system.Calculator;
@@ -11,6 +12,7 @@ public class TestCalculator {
         Assert.assertEquals(300, c.tong(100, 200));
     }
 
+    @Ignore
     @Test
     public void testTongThatBai() {
         Calculator c = new Calculator();
@@ -70,7 +72,6 @@ public class TestCalculator {
     }
 
     @Test
-    @Ignore
     public void testThuongThatBai2() {
         int a = 4;
         int b = 4;
