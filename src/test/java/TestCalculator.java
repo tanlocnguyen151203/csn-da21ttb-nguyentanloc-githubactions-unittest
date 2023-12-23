@@ -11,11 +11,11 @@ public class TestCalculator {
         Assert.assertEquals(300, c.tong(100, 200));
     }
 
-    @Test
-    public void testTongThatBai() {
-    Calculator c = new Calculator();
-    Assert.assertEquals(400, c.tong(100, 200));
-    }
+    // @Test
+    // public void testTongThatBai() {
+    // Calculator c = new Calculator();
+    // Assert.assertEquals(400, c.tong(100, 200));
+    // }
 
     @Test
     public void testTruThanhCong() {
