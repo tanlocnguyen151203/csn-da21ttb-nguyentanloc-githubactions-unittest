@@ -47,9 +47,13 @@ public class TestCalculator {
         Assert.assertEquals(1, c.thuong(3, 3));
     }
 
-    // @Test
-    // public void testThuongThatBai() {
-    // Calculator c = new Calculator();
-    // Assert.assertEquals(4, c.thuong(3, 3));
-    // }
+    @Test
+    public void testThuongThatBai() {
+    Calculator c = new Calculator();
+    Assert.assertThrows(IllegalArgumentException.class, 
+    () -> {
+        c.thuong(3, 0);
+    });
+    // Assert.assertEquals(4, c.thuong(3, 0));
+    }
 }
