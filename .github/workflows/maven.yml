@@ -28,12 +28,13 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()
       with:
-        artifact: '${{ github.workspace }}/target/surefire-reports/TEST-.*\\.xml'
+        artifact: '${{ github.workspace }}/target/surefire-reports/TEST-.*\\.xml$'
         name: 'Test Report'
         path: 'target/surefire-reports/'
         reporter: 'java-junit'
         fail-on-error: 'true'
         fail-on-empty: 'true'
+
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
