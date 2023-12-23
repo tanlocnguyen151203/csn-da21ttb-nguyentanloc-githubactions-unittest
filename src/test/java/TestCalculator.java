@@ -12,7 +12,7 @@ public class TestCalculator {
         Assert.assertEquals(300, c.tong(100, 200));
     }
 
-    @Ignore
+    // @Ignore
     @Test
     public void testTongThatBai() {
         Calculator c = new Calculator();
@@ -20,7 +20,6 @@ public class TestCalculator {
                 () -> {
                     Assert.assertEquals(400, c.tong(100, 200));
                 });
-        // Assert.assertEquals(400, c.tong(100, 200));
     }
 
     @Test
@@ -68,7 +67,6 @@ public class TestCalculator {
                 () -> {
                     c.thuong(a, b);
                 });
-        // Assert.assertEquals(4, c.thuong(3, 0));
     }
 
     @Test
@@ -81,7 +79,6 @@ public class TestCalculator {
                 () -> {
                     Assert.assertEquals(5, c.thuong(a, b));
                 });
-        // Assert.assertEquals(4, c.thuong(3, 0));
     }
 
 }
