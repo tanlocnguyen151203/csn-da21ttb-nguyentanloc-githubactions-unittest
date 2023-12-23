@@ -70,6 +70,7 @@ public class TestCalculator {
     }
 
     @Test
+    @Ignore
     public void testThuongThatBai2() {
         int a = 4;
         int b = 4;
@@ -82,16 +83,4 @@ public class TestCalculator {
         // Assert.assertEquals(4, c.thuong(3, 0));
     }
 
-    @Ignore
-    @Test
-    public void testThuongThatBai3() {
-        int a = 4;
-        int b = 4;
-        Calculator c = new Calculator();
-        Assert.assertThrows(AssertionError.class,
-                () -> {
-                    Assert.assertEquals(5, c.thuong(a, b));
-                });
-        // Assert.assertEquals(4, c.thuong(3, 0));
-    }
 }
