@@ -14,7 +14,7 @@ public class TestCalculator {
     @Test
     public void testTongThatBai() {
         Calculator c = new Calculator();
-        Assert.assertThrows(IllegalArgumentException.class,
+        Assert.assertThrows(AssertionError.class,
                 () -> {
                     Assert.assertEquals(400, c.tong(100, 200));
                 });
