@@ -11,11 +11,11 @@ public class TestCalculator {
         Assert.assertEquals(300, c.tong(100, 200));
     }
 
-    // @Test
-    // public void testTongThatBai() {
-    // Calculator c = new Calculator();
-    // Assert.assertEquals(400, c.tong(100, 200));
-    // }
+    @Test
+    public void testTongThatBai() {
+    Calculator c = new Calculator();
+    Assert.assertEquals(400, c.tong(100, 200));
+    }
 
     @Test
     public void testTruThanhCong() {
@@ -23,11 +23,11 @@ public class TestCalculator {
         Assert.assertEquals(100, c.tru(200, 100));
     }
 
-    // @Test
-    // public void testTruThatBai() {
-    // Calculator c = new Calculator();
-    // Assert.assertEquals(400, c.tru(200, 100));
-    // }
+    @Test
+    public void testTruThatBai() {
+    Calculator c = new Calculator();
+    Assert.assertEquals(400, c.tru(200, 100));
+    }
 
     @Test
     public void testTichThanhCong() {
@@ -35,11 +35,11 @@ public class TestCalculator {
         Assert.assertEquals(8, c.tich(2, 4));
     }
 
-    // @Test
-    // public void testTichThatBai() {
-    // Calculator c = new Calculator();
-    // Assert.assertEquals(6, c.tich(2, 4));
-    // }
+    @Test
+    public void testTichThatBai() {
+    Calculator c = new Calculator();
+    Assert.assertEquals(6, c.tich(2, 4));
+    }
 
     @Test
     public void testThuongThanhCong() {
