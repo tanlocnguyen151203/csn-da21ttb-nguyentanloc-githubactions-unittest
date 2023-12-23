@@ -52,7 +52,7 @@ public class TestCalculator {
         Calculator c = new Calculator();
         Assert.assertThrows(IllegalArgumentException.class,
                 () -> {
-                    c.thuong(4, 0);
+                    c.thuong(3, 0);
                 });
         // Assert.assertEquals(4, c.thuong(3, 0));
     }
