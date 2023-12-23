@@ -32,7 +32,7 @@ jobs:
       uses: dorny/test-reporter@v1
       if: always()
       with:
-        artifact: '${{ github.workspace }}/target/surefire-reports/TEST-TestCalculator\\.xml'
+        artifact: '${{ github.workspace }}/target/surefire-reports/TEST-TestCalculator.xml'
         name: 'Test Report'
         path: 'target/surefire-reports/'
         reporter: 'java-junit'
