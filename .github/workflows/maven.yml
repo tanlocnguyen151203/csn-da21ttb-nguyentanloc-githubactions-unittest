@@ -23,7 +23,11 @@ jobs:
 
     - name: Maven package and test
       run: mvn -B package test
-  
+    - name: Debug
+      run: |
+        ls -R ${{ github.workspace }}/target
+        ls -R ${{ github.workspace }}/target/surefire-reports/
+
     - name: Report
       uses: dorny/test-reporter@v1
       if: always()
