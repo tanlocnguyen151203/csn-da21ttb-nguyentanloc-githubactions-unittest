@@ -44,7 +44,7 @@ public class TestCalculator {
     @Test
     public void testThuongThanhCong() {
         Calculator c = new Calculator();
-        Assert.assertEquals(1, c.thuong(3, 3));
+        Assert.assertEquals(1, c.thuong(6, 2));
     }
 
     @Test
