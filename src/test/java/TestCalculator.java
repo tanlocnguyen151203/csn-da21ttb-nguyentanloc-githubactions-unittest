@@ -31,10 +31,10 @@ public class TestCalculator {
     @Test
     public void testTruThatBai() {
         Calculator c = new Calculator();
-        Assert.assertThrows(AssertionError.class,
-                () -> {
-                    Assert.assertEquals(400, c.tru(200, 100));
-                });
+        // Assert.assertThrows(AssertionError.class,
+        // () -> {
+        Assert.assertEquals(400, c.tru(200, 100));
+        // });
     }
 
     @Test
@@ -71,8 +71,6 @@ public class TestCalculator {
 
     @Test
     public void testThuongThatBai2() {
-        int a = 4;
-        int b = 4;
 
         Calculator c = new Calculator();
         Assert.assertThrows(AssertionError.class,
