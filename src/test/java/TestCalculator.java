@@ -30,7 +30,7 @@ public class TestCalculator {
 
     @Test
     public void testTruThatBai() {
-        // Calculator c = new Calculator();
+        Calculator c = new Calculator();
         // Assert.assertThrows(AssertionError.class,
         // () -> {
         Assert.assertEquals(400, c.tru(200, 100));
