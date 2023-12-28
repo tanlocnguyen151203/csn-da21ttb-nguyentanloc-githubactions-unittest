@@ -69,16 +69,16 @@ public class TestCalculator {
                 });
     }
 
-    // @Test
-    // public void testThuongThatBai2() {
-    // int a = 4;
-    // int b = 4;
+    @Test
+    public void testThuongThatBai2() {
+        int a = 4;
+        int b = 4;
 
-    // Calculator c = new Calculator();
-    // Assert.assertThrows(AssertionError.class,
-    // () -> {
-    // Assert.assertEquals(5, c.thuong(a, b));
-    // });
-    // }
+        Calculator c = new Calculator();
+        Assert.assertThrows(AssertionError.class,
+                () -> {
+                    Assert.assertEquals(5, c.thuong(a, b));
+                });
+    }
 
 }
