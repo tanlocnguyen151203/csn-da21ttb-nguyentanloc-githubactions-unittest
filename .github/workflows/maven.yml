@@ -22,7 +22,9 @@ jobs:
         cache: maven
 
     - name: Maven package and test
-      run: mvn -B package test
+      run: |
+        cd /scr/ProjectJava/
+        mvn -B package test
 
     - name: Report
       uses: dorny/test-reporter@v1
