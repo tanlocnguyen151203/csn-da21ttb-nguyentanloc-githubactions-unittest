@@ -23,7 +23,7 @@ jobs:
 
     - name: Maven package and test
       run: |
-        cd /scr/ProjectJava/
+        cd /scr/ProjectJava
         mvn -B package test
 
     - name: Report
