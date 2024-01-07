@@ -12,14 +12,20 @@ public class TestCalculator {
         Assert.assertEquals(300, c.tong(100, 200));
     }
 
+    @Test
+    public void testTongThanhCong() {
+        Calculator c = new Calculator();
+        Assert.assertEquals(300, c.tong(100, 200));
+    }
+
     // @Ignore
     @Test
     public void testTongThatBai() {
         Calculator c = new Calculator();
-        Assert.assertThrows(AssertionError.class,
-                () -> {
-                    Assert.assertEquals(400, c.tong(100, 200));
-                });
+        // Assert.assertThrows(AssertionError.class,
+        // () -> {
+        Assert.assertEquals(400, c.tong(100, 200));
+        // });
     }
 
     @Test
