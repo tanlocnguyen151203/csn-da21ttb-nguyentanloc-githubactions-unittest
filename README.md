@@ -29,9 +29,15 @@
 
 <h2>Liên Hệ:</h2><br>
 
+<li><b>Họ tên: <font size="3" >Nguyễn Tấn Lộc</font></b></li></br>
+<li><b>Lớp: <font size="3" >DA21TTB (Công nghệ thông tin B)</font></b></li></br>
+<li><b>MSSV <font size="3" >110121189</font></b></li></br>
 <li><b>Email: <a href="mailto:tanlocnguyen12003@gmail.com" target="_blank" ><font size="3" >tanlocnguyen12003@gmail.com</font></a></b></li></br>
 <li><b>Số điện thoại: <font size="3" >0706719494</font></b></li></br>
 
+<h2>Giảng viên hướng dẫn:</h2><br>
+
+<li><b>TS. <font size="3" >Nguyễn Bảo Ân</font></b></li></br>
 
 </body>
 </html>
