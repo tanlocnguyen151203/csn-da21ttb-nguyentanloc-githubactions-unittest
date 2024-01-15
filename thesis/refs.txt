@@ -1,0 +1,13 @@
+https://vietnix.vn/github-la-gi/
+https://viblo.asia/p/cicd-github-actions-va-cac-kien-thuc-co-ban-EoW4oRMrVml
+https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+https://blog.japan-itworks.vn/vi/github-actions-la-gi-1404
+https://itviec.com/blog/ci-cd-la-gi/
+https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions
+https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+https://viblo.asia/p/cicd-pipeline-4P856OXOKY3
+https://blog.japan-itworks.vn/vi/github-actions-la-gi-1404
+https://viettuts.vn/junit
+https://github.com/marketplace/actions/test-reporter#supported-formats
+https://topdev.vn/blog/unit-test-la-gi/
+https://viblo.asia/p/unit-test-la-gi-loi-ich-va-nhung-luu-y-khi-viet-unit-test-YWOZr20NZQ0
