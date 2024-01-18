@@ -16,10 +16,10 @@ public class TestCalculator {
     @Test
     public void testTongThatBai() {
         Calculator c = new Calculator();
-        Assert.assertThrows(AssertionError.class,
-                () -> {
-                    Assert.assertEquals(400, c.tong(100, 200));
-                });
+        // Assert.assertThrows(AssertionError.class,
+        // () -> {
+        Assert.assertEquals(400, c.tong(100, 200));
+        // });
     }
 
     @Test
